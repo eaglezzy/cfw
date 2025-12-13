@@ -73,9 +73,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)xvideos\.red$/.test(host)) return "+Proxy";
         if (/(?:^|\.)gmail\.com$/.test(host)) return "+Proxy";
         if (/(?:^|\.)xvideos-cdn\.com$/.test(host)) return "+Proxy";
-        if (/(?:^|\.)steamcommunity\.com$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)steamstatic\.com$/.test(host)) return "DIRECT";
-        if (/(?:^|\.)steampowered\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)mega\.co\.nz$/.test(host)) return "+Proxy";
         if (/(?:^|\.)mega\.nz$/.test(host)) return "+Proxy";
         if (/(?:^|\.)bing\.com$/.test(host)) return "+Proxy";
